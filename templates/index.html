@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Persian Transcriber</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+  <h1>Upload MP4 for Transcription</h1>
+
+  <input type="file" id="video-file" accept=".mp4" required />
+  <button id="upload-btn">Upload & Transcribe</button>
+  
+  <p id="output">⬆️ Upload a file to start.</p>
+  
+  <button id="fetch-srt" disabled>📥 Show Subtitles</button>
+  
+  <pre id="transcript" style="white-space: pre-wrap; background: #f9f9f9; padding: 1em; border: 1px solid #ddd; margin-top: 1em;"></pre>
+  
+  <button id="download-srt" disabled>⬇️ Download Subtitles (.srt)</button>
+
+  <script src="../static/script.js"></script>
+</body>
+</html>
