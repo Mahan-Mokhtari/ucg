@@ -2,3 +2,4 @@ Flask>=2.0
 gunicorn
 faster-whisper
 flask_cors
+webrtcvad
