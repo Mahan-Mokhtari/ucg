@@ -2,7 +2,3 @@ Flask>=2.0
 gunicorn
 faster-whisper
 flask_cors
-subprocess
-wave
-webrtcvad
-os
